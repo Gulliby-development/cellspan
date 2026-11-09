@@ -1,0 +1,17 @@
+{
+  "name": "cellspan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rescript build",
+    "typecheck": "rescript build",
+    "format": "node scripts/format.mjs",
+    "format:check": "node scripts/format.mjs --check",
+    "test": "rescript build && vitest run --no-color"
+  },
+  "devDependencies": {
+    "rescript": "12.3.1",
+    "vitest": "3.2.4"
+  }
+}
